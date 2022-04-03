@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans';
+}
+
+/* Styling for Hero Section */
+.hero_section {
+  display: flex;
+}
+
+.hero_box {
+  width: 50%;
+}
+
+.hero_box_first_half {
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+.time_is_up {
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+
+.hungry {
+  margin-bottom: 5%;
+  font-size: 5.5rem;
+}
+
+.tired {
+  width: 80%;
+}
+
+.food {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styling for skills section */
+
+.skill_section {
+  background: #24292e;
+  padding: 5%;
+  text-transform: uppercase;
+}
+
+.skills_list {
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.skill_mini_header {
+  color: #595959;
+}
+
+.skills_list li {
+  list-style: none;
+  margin-right: 2%;
+  margin-top: 3%;
+  font-size: 2.5rem;
+}
